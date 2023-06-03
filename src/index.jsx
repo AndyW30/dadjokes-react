@@ -1,13 +1,12 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
-import { Jokes } from './Joke/index.jsx';
-import { Home } from './Home/index.jsx';
+import { Jokes } from './Joke';
 
 const App = () => {
   return (
     <>
-    <Home/>
+    <Jokes/>
     </>
   )
 };
